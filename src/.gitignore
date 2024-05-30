@@ -1,0 +1,15 @@
+# node_modules/ - The directory where npm stores installed packages.
+# This directory is very large and should not be included in version control.
+node_modules/
+
+# build/ - The directory where the built/compiled files are stored.
+# These files are generated and should not be tracked in version control.
+build/
+
+# .DS_Store - A hidden file created by macOS to store folder attributes.
+# It is not needed for the project and should not be included in version control.
+.DS_Store
+
+# .env - A file for storing environment variables.
+# This file can contain sensitive information and should not be included in version control.
+.env
